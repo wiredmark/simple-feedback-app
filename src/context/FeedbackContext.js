@@ -1,6 +1,5 @@
 import { v4 as uuidv4 } from 'uuid'
 import { createContext, useState } from 'react'
-import FeedbackData from '../data/FeedbackData'
 import { useEffect } from 'react'
 
 const FeedbackContext = createContext()
